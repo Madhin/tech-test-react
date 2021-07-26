@@ -12,7 +12,7 @@ const Quiz = () => {
     const handleSubmit = (e) =>{
       e.preventDefault();
       const answer = e.target[0].value.toLowerCase()
-      if (answer === "pizza") {
+      if (answer === questions[0].answerOption[0].answerText) {
         alert("Correct Answer!")
       } else {
         alert("Wrong answer.Try Again!")
