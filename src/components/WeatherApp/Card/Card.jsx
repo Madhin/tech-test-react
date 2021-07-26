@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react'
-import Card from '../Card/Card';
 
 
 
-const Main = () => {
+
+const Card = () => {
   const [apiData, setApiData] = useState();
   let [state, setState] = useState("London");
 
@@ -45,4 +45,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Card

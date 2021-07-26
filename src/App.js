@@ -1,12 +1,18 @@
 import React from 'react';
 import './App.css';
-import Card from './components/WeatherApp/Card/Card';
-import Main from './components/WeatherApp/Main/Main';
+import Card from './components/WeatherApp/Card'
+import Quiz from './components/Quiz/Quiz'
+
+
 
 
 function App() {
   return (
-    <Main />
+    <>
+    <Card />
+    <br></br>
+    <Quiz />
+    </>
   );
 }
 
